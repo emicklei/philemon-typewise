@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<document>
+	<properties>
+		<title>Class Comments</title>
+	</properties>
+	<body>
+		<section name="com.philemonworks.typewise.cwt">
+			<table>
+				<tr>
+					<th>
+Class					</th>
+					<th>
+Comment					</th>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.Button">Button</a>					</td>
+					<td>
+The Button widget is generally used by the user to request an action performed on the application. A Button widget can trigger the EVENT_CLICKED event and performs all Message objects installed for this event. Accellerators can be used to provide shortcuts to speed up user interaction (see below).					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.CheckBox">CheckBox</a>					</td>
+					<td>
+Licensed Material - Property of PhilemonWorks B.V. (c) Copyright PhilemonWorks 2004 - All rights reserved. Use, duplication, distribution or disclosure restricted. See http://www.philemonworks.com for information.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.Choice">Choice</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.GroupBox">GroupBox</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.Image">Image</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.Label">Label</a>					</td>
+					<td>
+Purpose:					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.List">List</a>					</td>
+					<td>
+List is a Widget that can display multiple items and allow the user to select one.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.Menu">Menu</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.MenuBar">MenuBar</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.MenuItem">MenuItem</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.MenuList">MenuList</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.MenuSeparator">MenuSeparator</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.Panel">Panel</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.RadioButton">RadioButton</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.Screen">Screen</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.TableColumn">TableColumn</a>					</td>
+					<td>
+This class represents a column in a TableList.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.TableList">TableList</a>					</td>
+					<td>
+TableList is a special List that contains data organized in rows and columns.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.TextArea">TextArea</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.cwt.TextField">TextField</a>					</td>
+					<td>
+					</td>
+				</tr>
+			</table>
+		</section>
+	</body>
+</document>

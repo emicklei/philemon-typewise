@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="SelfDiagnose">
+  <title>TypeWise - presentation framework</title>
+  <body>
+    <links>
+      <item href="http://www.philemonworks.com/" name="PhilemonWorks">
+      </item>      
+      <item href="http://maven.apache.org/" name="Maven">
+      </item>
+    </links>
+    
+	<menu name="Class Comments">
+		<item href="/com.philemonworks.boa.html" name="com.philemonworks.boa">
+		</item>
+		<item href="/com.philemonworks.typewise.html"
+			name="com.philemonworks.typewise">
+		</item>
+		<item href="/com.philemonworks.typewise.cwt.html"
+			name="com.philemonworks.typewise.cwt">
+		</item>
+		<item href="/com.philemonworks.typewise.cwt.custom.html"
+			name="com.philemonworks.typewise.cwt.custom">
+		</item>
+		<item href="/com.philemonworks.typewise.html.html"
+			name="com.philemonworks.typewise.html">
+		</item>
+		<item href="/com.philemonworks.typewise.internal.html"
+			name="com.philemonworks.typewise.internal">
+		</item>
+		<item href="/com.philemonworks.typewise.message.html"
+			name="com.philemonworks.typewise.message">
+		</item>
+		<item href="/com.philemonworks.typewise.server.html"
+			name="com.philemonworks.typewise.server">
+		</item>
+		<item href="/com.philemonworks.typewise.swt.html"
+			name="com.philemonworks.typewise.swt">
+		</item>
+		<item href="/com.philemonworks.typewise.swt.client.html"
+			name="com.philemonworks.typewise.swt.client">
+		</item>
+		<item href="/com.philemonworks.typewise.swt.custom.html"
+			name="com.philemonworks.typewise.swt.custom">
+		</item>
+		<item href="/com.philemonworks.typewise.swt.tools.html"
+			name="com.philemonworks.typewise.swt.tools">
+		</item>
+    </menu>
+	  
+	<menu name="Configuration">
+		<item href="/stylesheet.html" name="Stylesheet">
+		</item>
+		<item href="/web.html"
+			name="web.xml">
+		</item>
+	</menu>
+	  	  
+  </body>
+</project>

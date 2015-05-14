@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<document>
+	<properties>
+		<title>Class Comments</title>
+	</properties>
+	<body>
+		<section name="com.philemonworks.typewise.html">
+			<table>
+				<tr>
+					<th>
+Class					</th>
+					<th>
+Comment					</th>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.html.CSSBasedRenderer">CSSBasedRenderer</a>					</td>
+					<td>
+CSSBasedRenderer is an HTML 4.01 renderer that uses Style for formatting the elements.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.html.CSSEntryBuilder">CSSEntryBuilder</a>					</td>
+					<td>
+CSSFormattedObject creates style definitions for each Widget.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.html.HTMLTableBasedRenderer">HTMLTableBasedRenderer</a>					</td>
+					<td>
+HTMLTableBasedRenderer takes a Screen and builds an HTMLTable that contains cells with HTML definitions for each widget of the Screen. The resulting table is rendered using a PrintWriter which must be passed to the constructor.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.html.HTMLView">HTMLView</a>					</td>
+					<td>
+HTMLClient is an object that handles message send directly to the client.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.html.JavascriptBuilder">JavascriptBuilder</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.html.PageServlet">PageServlet</a>					</td>
+					<td>
+PageServlet can process Http requests send from a standard HTML browser client. In repsonse, it returns an HTML representation of the current Screen of an ApplicationModel.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.html.PageWriter">PageWriter</a>					</td>
+					<td>
+PageWriter is a helper class to render a Screen using XHTML.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.html.Style">Style</a>					</td>
+					<td/>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.html.WidgetPostHandler">WidgetPostHandler</a>					</td>
+					<td>
+WidgetPostHandler can update the state of a Widget using the request parameter Map.					</td>
+				</tr>
+			</table>
+		</section>
+	</body>
+</document>

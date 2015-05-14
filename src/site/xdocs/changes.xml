@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?ruxed transform=Q:\ruxed\xdoc.rb view=Q:\ruxed\changes.html?>
+<document>
+  <properties>
+    <title>TypeWise Changes</title>
+    <author email="ernest.micklei_SPAM_@philemonworks.com">Ernest Micklei</author>
+  </properties>
+  <body>
+
+    <release version="1.0-rc90" date="2006-06-13">
+      <action dev="emicklei" type="add">
+      	Dialog support for HTML PageServlet
+      </action>                        
+    </release>
+    
+    <release version="1.0-rc89" date="2006-05-25">
+      <action dev="emicklei" type="add">
+        Initial public distribution
+      </action>                        
+    </release>
+  </body>
+</document>

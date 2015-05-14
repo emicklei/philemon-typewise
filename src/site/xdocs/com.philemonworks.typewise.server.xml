@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<document>
+	<properties>
+		<title>Class Comments</title>
+	</properties>
+	<body>
+		<section name="com.philemonworks.typewise.server">
+			<table>
+				<tr>
+					<th>
+Class					</th>
+					<th>
+Comment					</th>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.server.AbstractApplicationServlet">AbstractApplicationServlet</a>					</td>
+					<td>
+AbstractApplicationServlet provides behavior for creating an ApplicationModel based on the servlet config parameter.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.server.ApplicationServlet">ApplicationServlet</a>					</td>
+					<td>
+ApplicationServlet is a layer between HTTP and ApplicationModel. It is a servlet that receives requests, and converts these requests into calls that invoke methods on the model. In reponse, the model asks the client to change the curren screen or show a new. The servlet takes care of encoding and decoding the BWA formatted messages.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.server.ApplicationView">ApplicationView</a>					</td>
+					<td>
+ApplicationView is a surrogate for the real client (type is one of stmt,html,....) Methods invoked on the receiver are translated to messages that are queued until ready to send back the reply to the real client. Every instance of an ApplicationModel, within one Http-session, will share the same instance of ApplicationView to communicate to the client or accessing the state of widgets of the active Screen.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.server.BinaryAccessible">BinaryAccessible</a>					</td>
+					<td>
+Objects that can represent themselves in BWA format must implement this interface.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.server.BinaryWidgetAccessor">BinaryWidgetAccessor</a>					</td>
+					<td>
+BinaryWidgetAccessor is a specialization of a BOA and knows how to access (read+write) Terminal Objects from a byte stream.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.server.DefaultExceptionHandler">DefaultExceptionHandler</a>					</td>
+					<td/>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.server.IExceptionHandler">IExceptionHandler</a>					</td>
+					<td/>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.server.ServerWidgetFactory">ServerWidgetFactory</a>					</td>
+					<td>
+ServerWidgetFactory is an implementor of WidgetFactory that creates widgets that only live server-side.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.server.SessionInvalidationRequestNotification">SessionInvalidationRequestNotification</a>					</td>
+					<td>
+SessionInvalidationRequestNotification is a special RuntimeException that can cause the current session to be invalidated when thrown.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.server.WidgetFactory">WidgetFactory</a>					</td>
+					<td>
+WidgetFactory is used by the BinaryWidgetAccessor to create widgets by processing a BWA formatted bytestream.					</td>
+				</tr>
+			</table>
+		</section>
+	</body>
+</document>

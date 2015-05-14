@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:j="jelly:core" xmlns:ant="jelly:ant" xmlns:maven="jelly:maven">
+
+<postGoal name="java:compile">
+<attainGoal name="golf:setrev" />
+</postGoal>
+
+<goal name="golf:deploy-test" prereqs="war:war">
+<attainGoal name="tomcat:stop" />
+<ant:copy file="${maven.war.build.dir}/${maven.war.final.name}" todir="/opt/java/golf/wars" />
+<attainGoal name="tomcat:start" />
+</goal>
+
+</project>
+het gaat om de goal golf:deploy-test
+de bijbehorende properties
+
+# ------------------------------------------------------------------------
+# Props for deploying to Tomcat test environment
+# ------------------------------------------------------------------------
+maven.tomcat.manager.url=http://test.golfscores.nl/tcmgr
+maven.tomcat.host=test.golfscores.nl
+maven.tomcat.war.context=/
+maven.tomcat.precompile=false

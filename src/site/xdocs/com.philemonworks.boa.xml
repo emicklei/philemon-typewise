@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<document>
+	<properties>
+		<title>Class Comments</title>
+	</properties>
+	<body>
+		<section name="com.philemonworks.boa">
+			<table>
+				<tr>
+					<th>
+Class					</th>
+					<th>
+Comment					</th>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.boa.BinaryObjectAccessor">BinaryObjectAccessor</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.boa.BinaryObjectReadException">BinaryObjectReadException</a>					</td>
+					<td>
+BinaryObjectReadException is a special exception that is thrown in the context of the BinaryObjectAccessor.					</td>
+				</tr>
+			</table>
+		</section>
+	</body>
+</document>

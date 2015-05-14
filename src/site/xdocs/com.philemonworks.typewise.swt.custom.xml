@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<document>
+	<properties>
+		<title>Class Comments</title>
+	</properties>
+	<body>
+		<section name="com.philemonworks.typewise.swt.custom">
+			<table>
+				<tr>
+					<th>
+Class					</th>
+					<th>
+Comment					</th>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.custom.SwtCommandLineDispatcher">SwtCommandLineDispatcher</a>					</td>
+					<td/>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.custom.SwtConsole">SwtConsole</a>					</td>
+					<td>
+Console is a wrapper for the SWT Text widget that is a view for a CommandLineInterpreter.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.custom.SwtTimer">SwtTimer</a>					</td>
+					<td>
+SwtTimer is					</td>
+				</tr>
+			</table>
+		</section>
+	</body>
+</document>

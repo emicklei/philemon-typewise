@@ -1,0 +1,123 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.philemonworks</groupId>
+	<artifactId>philemon-typewise</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0-rc101</version>
+	<name>Philemon TypeWise</name>
+	<url>http://www.typewise.org</url>
+	
+	<!-- copied from Maven1 project.xml repository>
+	<connection>scm:svn:https://jvds.xs4all.nl/svn/repos2:philemon-typewise</connection>
+	</repository -->
+	
+	<developers>
+		<developer>
+			<name>Ernest Micklei</name>
+			<id>ernest</id>
+			<email>ernest.micklei@philemonworks.com</email>
+			<organization>PhilemonWorks</organization>
+		</developer>
+		<developer>
+			<name>Maarten van Hulsentop</name>
+			<id>maarten</id>
+			<email>maarten@vanhulsentop.nl</email>
+			<organization>PhilemonWorks</organization>
+		</developer>
+	</developers>
+	
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.philemonworks</groupId>
+			<artifactId>philemon-commons</artifactId>
+			<version>1.1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.philemonworks</groupId>
+			<artifactId>philemon-itable</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>commons-httpclient</groupId>
+			<artifactId>commons-httpclient</artifactId>
+			<version>3.0</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<!-- dependency>
+			<groupId>swt</groupId>
+			<artifactId>runtime</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency -->
+		
+		<dependency>
+			<groupId>swt</groupId>
+			<artifactId>swt-win32</artifactId>
+			<version>3235</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>jnlp</groupId>
+			<artifactId>jnlp</artifactId>
+			<version>1.5</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.4</version>
+			<scope>provided</scope>
+		</dependency>
+		
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.4</source>
+					<target>1.4</target>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			
+		</plugins>
+	</build>
+	<distributionManagement> 
+		<site>
+			<id>website-philemonworks</id>
+			<url>scp://s512.widexs.nl:14598/opt/sites/philemonworks.com/htdocs/philemon-typewise</url>
+		</site>
+		<repository>
+			<id>newbizz-repo</id>
+			<name>NewBizz Repository</name>
+			<url>scp://s512.widexs.nl:14598/opt/java/maven2-newbizz-repo</url>
+		</repository>
+	</distributionManagement> 	
+</project>

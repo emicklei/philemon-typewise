@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configuration for the UMLX generator, 
+	 See http://www.philemonworks.com/maven-umlx-plugin -->
+<generator>
+	<actions>
+		<removeattribute name="serialVersionUID" />
+		<removepackage suffix="test" />
+		<removeoperation name="toString" />
+		<removegettersandsetters />
+		<sortelements />
+	</actions>
+</generator>

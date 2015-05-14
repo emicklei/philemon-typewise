@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<document>
+	<properties>
+		<title>Class Comments</title>
+	</properties>
+	<body>
+		<section name="com.philemonworks.typewise.swt.client">
+			<table>
+				<tr>
+					<th>
+Class					</th>
+					<th>
+Comment					</th>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.ConfigManager">ConfigManager</a>					</td>
+					<td>
+ConfigManager is the facade to properties that are stored locally such as preferred font and networksettings.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.Credentials">Credentials</a>					</td>
+					<td>
+Credentials is a persistent object to the ConfigManager to remember access.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.HttpMessageTransport">HttpMessageTransport</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.LocalMessageTransport">LocalMessageTransport</a>					</td>
+					<td>
+LocalMessageTransport is used by a client that runs in the same JVM as the server.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.MessageTransport">MessageTransport</a>					</td>
+					<td>
+MessageTransport is an interface of objects that can post Message instances to the server using BWA encoded requests and responses.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.ProxyServerSettings">ProxyServerSettings</a>					</td>
+					<td>
+ProxyServerSettings is used to change proxy settings.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.ServerAuthenticationLogin">ServerAuthenticationLogin</a>					</td>
+					<td>
+ServerAuthenticationLogin is used to get credentials from the user to transport messags to the application server.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.SwtApplicationView">SwtApplicationView</a>					</td>
+					<td>
+SwtApplicationView is a TypeWise client that uses SWT Technology.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.SwtImageProvider">SwtImageProvider</a>					</td>
+					<td>
+SwtImageProvider is a caching SWT image fetcher					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.SwtMessageDispatcher">SwtMessageDispatcher</a>					</td>
+					<td>
+SwtMessageDispatcher can handle Message objects send to and from client widgets and server models. For messages from the client to the server, the dispatcher uses a MessageTransport implementor.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.SwtUtils">SwtUtils</a>					</td>
+					<td>
+SwtUtils has methods that support the building of SWT client widgets that represent CWT server widgets.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.SwtWidget">SwtWidget</a>					</td>
+					<td>
+SwtWidget is an interface declaring methods required for all classes created using the SwtWidgetFactory.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.SwtWidgetFactory">SwtWidgetFactory</a>					</td>
+					<td>
+SwtWidgetFactory is a WidgetFactory that creates specilizations of CWT widgets that use SWT technology.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.swt.client.Welcome">Welcome</a>					</td>
+					<td>
+Welcome is the default starup screen when no URL was passed to the ApplicationView.					</td>
+				</tr>
+			</table>
+		</section>
+	</body>
+</document>

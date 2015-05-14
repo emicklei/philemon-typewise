@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<document>
+	<properties>
+		<title>Class Comments</title>
+	</properties>
+	<body>
+		<section name="com.philemonworks.typewise.internal">
+			<table>
+				<tr>
+					<th>
+Class					</th>
+					<th>
+Comment					</th>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.internal.BasicWidget">BasicWidget</a>					</td>
+					<td>
+Purpose: BasicWidget is an abstract superclass for widget that can have an enabled state.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.internal.ColorLookup">ColorLookup</a>					</td>
+					<td>
+ColorLookup is used to find an appearance color attribute value for a Widget such as foreground, background etc. The following rules apply: <ul> <li>if the widget does not specify an appearance then try its parent in the widget tree</li> <li>if the widget does not specify an appearance and has no parent then use the default value</li> </ul>					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.internal.CompositeWidget">CompositeWidget</a>					</td>
+					<td>
+CompositeWidget is an abstract widget container.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.internal.DebugExplainer">DebugExplainer</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.internal.ErrorUtils">ErrorUtils</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.internal.ObjectAppearance">ObjectAppearance</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.internal.Widget">Widget</a>					</td>
+					<td>
+Widget is an abstract superclass for all terminal widgets This class provides common behavior and state for specifying a Panel that can be displayed on a terminal client. <ul> <li>name - the unique name of the widget (is required for the constructor)</li> <li>bounds - this rectangle specialization represents the area in which the receiver is displayed.</li> <li>parent - this field holds the parent widget (unless the receiver is on top)</li> <li>eventTable - this private table holds event to message connections for the receiver</li> </ul>					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.internal.WidgetAccessorConstants">WidgetAccessorConstants</a>					</td>
+					<td>
+Licensed Material - Property of PhilemonWorks B.V. (c) Copyright PhilemonWorks 2004,2005 - All rights reserved. Use, duplication, distribution or disclosure restricted. See http://www.philemonworks.com for information.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.internal.WidgetAppearanceHolder">WidgetAppearanceHolder</a>					</td>
+					<td>
+WidgetAppearanceHolder is the abstract class for all objects that can have a WidgetAppearance assigned. A WidgetAppearance can either be specified by the name of a style (from a StyleSheet) or directly by an instance of WidgetAppearance.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.internal.WidgetBehavior">WidgetBehavior</a>					</td>
+					<td/>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.internal.WidgetHandler">WidgetHandler</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.internal.WidgetLookup">WidgetLookup</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.internal.WidgetLookupHelper">WidgetLookupHelper</a>					</td>
+					<td>
+					</td>
+				</tr>
+			</table>
+		</section>
+	</body>
+</document>

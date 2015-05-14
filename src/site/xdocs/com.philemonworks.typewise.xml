@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<document>
+	<properties>
+		<title>Class Comments</title>
+	</properties>
+	<body>
+		<section name="com.philemonworks.typewise">
+			<table>
+				<tr>
+					<th>
+Class					</th>
+					<th>
+Comment					</th>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.ApplicationModel">ApplicationModel</a>					</td>
+					<td>
+Purpose: This is the abstract superclass of all ApplicationModel classes. It provides a set of methods to communicate with the connected ApplicationView (the client) using MessageSend objects.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.Bounds">Bounds</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.CWT">CWT</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.Dialog">Dialog</a>					</td>
+					<td/>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.KeyConstants">KeyConstants</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.ListItem">ListItem</a>					</td>
+					<td>
+ListItem instances can be used to encapsulate both an identifier and a user readable label and are typically used as contents of a List widget. Two ListItems are equal if their id's are equal.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.Location">Location</a>					</td>
+					<td>
+Location represents a position in a Screen expressed by a row,column pair.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.StyleSheet">StyleSheet</a>					</td>
+					<td>
+StyleSheet is used to define shared WidgetAppearance objects that can be used for building CWT screens. When the name represent a file name then a load will read the values. The file format is based on the standard Properties layout: <p/> [styleName].[attribute]=[encoded color] <p/> <ul> <li>styleName : can be any name without spaces</li> <li>attribute : must be one of {foreground,background,selectionForeground,selectionBackground,disabledForeground,border,focus} (case insensitive)</li> <li>color : must be a sequence of three hexadecimal byte values (maybe prefixed with a pound sign #)</li> </ul> Examples: <ul> <li>button.foreground=#FFFFFF</li> <li>strong.selectionForeground=00FFEE</li> </ul>					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.TableListItem">TableListItem</a>					</td>
+					<td>
+TableItem represents a row in a TableList.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.UIBuilder">UIBuilder</a>					</td>
+					<td>
+UIBuilder is a helper class for creating a CWT Widget tree such as a Screen. An UIBuilder will maintain a position on a grid in terms of rows and columns. All non-get/add methods of the UIBuilder return the builder itself allowing for cascading-style coding.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.UILayoutHelper">UILayoutHelper</a>					</td>
+					<td>
+UILayoutHelper is a helper class for changing the layout of widgets on a Screen.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.WidgetAppearance">WidgetAppearance</a>					</td>
+					<td>
+					</td>
+				</tr>
+			</table>
+		</section>
+	</body>
+</document>

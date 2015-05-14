@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<document>
+	<properties>
+		<title>Class Comments</title>
+	</properties>
+	<body>
+		<section name="com.philemonworks.typewise.message">
+			<table>
+				<tr>
+					<th>
+Class					</th>
+					<th>
+Comment					</th>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.message.IndexedMessageSend">IndexedMessageSend</a>					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.message.Message">Message</a>					</td>
+					<td>
+Known implementors of this interface are MessageSend, IndexedMessageSend and MessageSequence					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.message.MessageConstants">MessageConstants</a>					</td>
+					<td>
+Purpose: This is container of constant values					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.message.MessageDispatcher">MessageDispatcher</a>					</td>
+					<td>
+The MessageDispatcher can perform all implementors of the Message interface.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.message.MessageFactory">MessageFactory</a>					</td>
+					<td>
+MessageFactory is a helper class that can create Message (implementor) instances					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.message.MessageReceiver">MessageReceiver</a>					</td>
+					<td>
+MessageReceiver is an interface for any Object that can handle a Message.					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.message.MessageSend">MessageSend</a>					</td>
+					<td>
+Licensed Material - Property of PhilemonWorks B.V. (c) copyright PhilemonWorks B.V. 2004,2005 - All rights reserved. Use, duplication or disclosure restricted. See http://www.philemonworks.com					</td>
+				</tr>
+				<tr>
+					<td>
+<a class="external" href="javadoc/com.philemonworks.typewise.message.MessageSequence">MessageSequence</a>					</td>
+					<td>
+MessageSequence is a Composite of Message objects. It holds an ordered collection of instance Message implementors					</td>
+				</tr>
+			</table>
+		</section>
+	</body>
+</document>
